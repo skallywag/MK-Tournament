@@ -1,7 +1,7 @@
 import React, { PureComponent } from 'react'
 import './Header.scss'
 class Header extends PureComponent {
-    
+
     state = {
         menuOpen: false
     }
@@ -21,11 +21,13 @@ class Header extends PureComponent {
 
                 <div className='main-nav-con'>
                     <img className='nav-logo'src="https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Mortal_Kombat_Logo.svg/1920px-Mortal_Kombat_Logo.svg.png" alt=""/>
+                    <i class="far fa-user-circle profile"></i>
                     <div className='burger' onClick={ () => this.toggleMenu() }>
                         <div></div>
                         <div></div>
                         <div></div>
                     </div>
+    
                 </div>
 
                 <ul className='main-nav-links'>
@@ -44,6 +46,8 @@ class Header extends PureComponent {
                         <ul>
                             <li>About</li>
                             <li>Forums</li>
+                            <li>Tournaments</li>
+                            <li>Store</li>
                             <li>Sign in</li>
                             <li>Log out</li>
                         </ul>

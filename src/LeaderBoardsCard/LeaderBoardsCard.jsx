@@ -2,14 +2,6 @@ import React, { PureComponent } from 'react'
 import './LeaderBoardsCards.scss'
 
 class LeaderBoardsCard extends PureComponent {
-    constructor(props) {
-        super(props)
-
-        this.state = {
-            
-        }
-    }
-
     render() {
         return (
             <section className='leader-boards-con'>

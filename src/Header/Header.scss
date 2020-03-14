@@ -38,14 +38,28 @@ header {
     }
     
 }
+.profile {
+    position: relative;
+    left: 25%;
+    font-size: 26px;
+}
 /**************/ 
 .mobile-nav {
     position: absolute;
+    z-index: 4; /* only works with pos abso. */
     top: 72px;
-    width: 100%;
-    background: white;
+    left: 60%;
+    width: 40%;
+    height: 40%;
+    background: #2f3541;
     text-align: center;
+    border-bottom: 1px solid #000;
 }
-.nav-button {
-
+.nav-links {
+    color: #fff;
+    padding: 20px;
+    ul li {
+       padding: 10px;
+       border-bottom: 1px solid #000;
+    }
 }
