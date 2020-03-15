@@ -6,6 +6,7 @@ import NewsCard from './NewsCard/NewsCard';
 import Footer from './Footer/Footer.jsx';
 import LeaderBoardsCard from './LeaderBoardsCard/LeaderBoardsCard'
 import LatestMatches from './LatestMatches/LatestMatches';
+import UpcomingMatches from './UpcomingMatches/UpcomingMatches';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NewsCard/>
       <LeaderBoardsCard/>
       <LatestMatches/>
+      <UpcomingMatches/>
       <Footer/>
     </div>
   );
