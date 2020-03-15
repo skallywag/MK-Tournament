@@ -13,30 +13,62 @@ class UpcomingMatches extends PureComponent {
 
                 <div className='vs-card'>
 
-                    <div className='player'>
+                    <div>
                         <h1>Skallywagg</h1>
                         <p>Wins: 189</p>
                          <p>Losses: 84</p>
                         <p>Win odds: 89$</p>
                      </div>
 
-                        <h2 className='vs'>VS</h2>
+                    <div className='vs'>VS</div>
 
-                    <div className='player'>
+                    <div className>
                      <h1>Pwntastic</h1>
                      <p>Wins: 176</p>
                      <p>Losses: 112</p>
                      <p>Win odds: 60%</p>
                  </div>
                 </div>
-                <div>
-                    <div className='vs-time'>
-                        <div>
-                            <p>March 2, 2020 3:00p.m.</p>
-                        </div>
-                    </div>
+
+                <div className='vs-card'>
+
+                    <div>
+                        <h1>Shalfosizzle</h1>
+                        <p>Wins: 156</p>
+                         <p>Losses: 84</p>
+                        <p>Win odds: 61%</p>
+                     </div>
+
+                     <div className='vs'>VS</div>
+
+                    <div className>
+                     <h1>Mengodown</h1>
+                     <p>Wins: 162</p>
+                     <p>Losses: 90</p>
+                     <p>Win odds: 68%</p>
+                 </div>
                 </div>
-                
+
+                <div className='vs-card'>
+
+                    <div>
+                        <h1>Derwood</h1>
+                        <p>Wins: 98</p>
+                         <p>Losses: 97</p>
+                        <p>Win odds: 70%</p>
+                     </div>
+
+                     <div className='vs'>VS</div>
+
+                    <div className>
+                     <h1>Kleb</h1>
+                     <p>Wins: 59</p>
+                     <p>Losses: 89</p>
+                     <p>Win odds: 40%</p>
+                 </div>
+                </div>
+            
+    
                 
 
                     

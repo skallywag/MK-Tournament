@@ -40,7 +40,8 @@
     background-color: #2f3541;
     text-align: center;
     border-radius: 5px;
-    border-bottom: 1px solid #a0a7ab;
+    position: relative;
+    margin-bottom: 20px;
     
     padding: 15px;
     h1 {
@@ -58,7 +59,12 @@
 .vs {
     color: #dd163b;
     font-size: 30px;
-} 
+    position: absolute;
+    left: 45%;
+    top: 43%;
+
+    
+}
 .vs-time {
     padding: 15px;
     background-color: #2f3541;

@@ -7,8 +7,11 @@ import Footer from './Footer/Footer.jsx';
 import LeaderBoardsCard from './LeaderBoardsCard/LeaderBoardsCard'
 import LatestMatches from './LatestMatches/LatestMatches';
 import UpcomingMatches from './UpcomingMatches/UpcomingMatches';
+import Rental from './Rental/Rental';
+
 
 function App() {
+
   return (
     <div className="App">
       <Header/>
@@ -16,6 +19,7 @@ function App() {
       <LeaderBoardsCard/>
       <LatestMatches/>
       <UpcomingMatches/>
+      <Rental/>
       <Footer/>
     </div>
   );
