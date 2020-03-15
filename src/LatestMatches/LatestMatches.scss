@@ -1,18 +1,15 @@
-.leader-boards-con {
+.latest-con {
     background-color:rgba(0, 0, 0, 0.767);
     padding-left: 15px;
     padding-right: 15px;
-    padding-bottom: 1px;
 }
-
-
-.leader-title {
+.latest-title {
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 30px;
     font-weight: 900;
-    padding-top: 40px;
+    padding-top: 25px;
     margin-bottom: 25px;
     &:after {
         display: block;
@@ -30,31 +27,16 @@
     div {
         display: flex;
     }
-    .leader-txt-red {
+    .latest-txt-red {
         color: #dd163b;
         margin-left: 10px;
     }
 }
-
-.system-card {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #2f3541;
-    color: #fff;
-    border-radius: 6px;
-    box-shadow: 5px 5px 5px rgba(63, 63, 63, 0);
-    padding: 15px;
-    font-weight: 900;
-    margin-bottom: 15px;
-h1 {
-    font-size: 20px;
-    margin-bottom: 15px;
+.match-card {
+    
 }
-p {
-    font-size: 20px;
-    color: #dd163b;
-}
-
-
+.match-vid {
+    border-radius: 5px;
+    width: 100%;
+    height: 50%;
 }
