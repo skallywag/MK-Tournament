@@ -22,7 +22,7 @@ class UpcomingMatches extends PureComponent {
 
                     <div className='vs'>VS</div>
 
-                    <div className>
+                    <div >
                      <h1>Pwntastic</h1>
                      <p>Wins: 176</p>
                      <p>Losses: 112</p>
@@ -60,7 +60,7 @@ class UpcomingMatches extends PureComponent {
 
                      <div className='vs'>VS</div>
 
-                    <div className>
+                    <div>
                      <h1>Kleb</h1>
                      <p>Wins: 59</p>
                      <p>Losses: 89</p>

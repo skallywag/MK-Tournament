@@ -1,0 +1,62 @@
+.server-rental-con {
+    background-color:rgba(0, 0, 0, 0.767);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 200px;
+}
+.rental-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 40px;
+    margin-bottom: 25px;
+    &:after {
+        display: block;
+        content: '';
+        border-bottom: 4px solid #dd163b;
+        width: 20px;
+        
+    }
+    &:before {
+        display: block;
+        content: '';
+        border-bottom: 4px solid #dd163b;
+        width: 20px;   
+    }
+    div {
+        display: flex;
+    }
+    .rental-txt-red {
+        color: #dd163b;
+        margin-left: 10px;
+    }
+}
+
+.features-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.features-container {
+    display: flex;
+    justify-content: center;
+}
+
+.icon-features {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #2f3541;
+    height: 80px;
+    width: 80px;
+    border-radius: 40px;
+    margin-bottom: 10px;
+    
+}
+.feat-icon {
+    font-size: 25px;
+}

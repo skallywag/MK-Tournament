@@ -35,7 +35,7 @@ class NewsCard extends PureComponent {
 
       let cards = this.state.cards.map(card => {
         return (
-          <div className='news-card'>
+          <div className='news-card' key="card.src">
               <img src={ card.src } alt=""/>
                   <div className='flex-col'>
                     <h1>{ card.title }</h1>
