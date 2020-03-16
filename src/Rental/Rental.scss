@@ -34,16 +34,19 @@
     }
 }
 
-.features-con {
+.features-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
     color: #fff;
 }
 
 .features-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+
 }
 
 .icon-features {
@@ -56,7 +59,34 @@
     border-radius: 40px;
     margin-bottom: 10px;
     
+    
 }
 .feat-icon {
     font-size: 25px;
+}
+.icon-text {
+    font-size: 12px;
+}
+
+.pricing-card {
+    background-color: #2f3541;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid red;
+    .price {
+        font-size: 30px;
+        color: #fff;
+    }
+}
+.rental-btn {
+    text-align: center;
+    padding: 14px;
+    color: #fff;
+    background-color: #dd163b;
+    border-style: none;
+    border-radius: 10px;
+    width: 120px;
+    font-size: 18px;
 }
