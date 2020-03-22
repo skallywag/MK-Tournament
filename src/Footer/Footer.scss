@@ -25,8 +25,8 @@
     border-radius: 10px;
     font-size: 20px;
     outline: none;
-
 }
+
 .msg {
     height: 140px;
     margin-left: 15px;
@@ -37,8 +37,12 @@
     border: 1px solid #2f3541;
     background-color: (0, 0, 0, 0.767);
     margin-bottom: 15px;
-
     
+}
+.msg::placeholder {
+    color: blue;
+    position: relative;
+    bottom: 50px;
 }
 .contact-btn {
     background-color: #fff;
