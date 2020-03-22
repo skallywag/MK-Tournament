@@ -21,7 +21,6 @@ function App() {
       <LatestMatches/>
       <UpcomingMatches/>
       <Rental/>
-      <Contact/>
       <Footer/>
     </div>
   );

@@ -1,0 +1,71 @@
+.contact-con {
+    background-color: rgba(0, 0, 0, 0.767);
+    padding-bottom: 25px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-heading {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.info {
+   border: 1px solid #2f3541;
+   background-color: (0, 0, 0, 0.767);
+    height: 40px;
+    width: 230px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+
+}
+.msg {
+    height: 140px;
+    margin-left: 15px;
+    width: 230px;
+    border-radius: 10px;
+    font-size: 20px;
+    outline: none;
+    border: 1px solid #2f3541;
+    background-color: (0, 0, 0, 0.767);
+    margin-bottom: 15px;
+
+    
+}
+.contact-btn {
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 70px;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+.social-title {
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    margin-left: 15px;
+}
+.social-icon {
+    font-size: 30px;
+    margin: 5px;
+}
+.copy-right-con {
+    background-color: black;
+    padding: 15px;
+    h1 {
+        color: #fff;
+    }
+}
