@@ -17,7 +17,7 @@ class UpcomingMatches extends PureComponent {
                         <h1>Skallywagg</h1>
                         <p>Wins: 189</p>
                          <p>Losses: 84</p>
-                        <p>Win odds: 89$</p>
+                        <p>Win odds: 89%</p>
                      </div>
 
                     <div className='vs'>VS</div>
@@ -64,7 +64,7 @@ class UpcomingMatches extends PureComponent {
                      <h1>Kleb</h1>
                      <p>Wins: 1</p>
                      <p>Losses: 89</p>
-                     <p>Win odds: -1%</p>
+                     <p>Win odds: -1    %</p>
                  </div>
                 </div>
             
