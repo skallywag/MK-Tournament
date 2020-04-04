@@ -23,9 +23,6 @@ header {
     .heading-con {
         position: relative;
         background: #000;         
-        img {
-            // opacity: .5;
-        }
         .img-text {
             position: absolute;
             top: 37%;
@@ -54,6 +51,8 @@ header {
     background: #2f3541;
     text-align: center;
     border-bottom: 1px solid #000;
+    transition: ease-in ;
+
 }
 .nav-links {
     color: #fff;
@@ -61,5 +60,8 @@ header {
     ul li {
        padding: 10px;
        border-bottom: 1px solid #000;
+    }
+    a li {
+        color: aliceblue;
     }
 }

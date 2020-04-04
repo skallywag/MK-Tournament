@@ -48,16 +48,16 @@ class Header extends PureComponent {
                 <div className='mobile-nav' style={{ display: this.state.menuOpen ? "block" : "none"}}>
                     <div className='nav-links'>
                         <ul>
-                            <li>About</li>
-                            <li>Forums</li>
-                            <li>Tournaments</li>
-                            <li>Store</li>
-                            <li>Sign in</li>
-                            <li>Log out</li>
+                            <a href="#"><li>About</li></a>
+                            <a href="#"><li>Forums</li></a>
+                            <a href="#"><li>Tournaments</li></a>
+                            <a href="#"><li>Store</li></a>
+                            <a href="#"><li>Sign In</li></a>
+                            <a href="#"><li>Sign Out</li></a>
                         </ul>
                     </div>
                 </div>
-
+            
             </header>
         )
     }
