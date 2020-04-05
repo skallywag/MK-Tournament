@@ -8,6 +8,7 @@ import LeaderBoardsCard from './LeaderBoardsCard/LeaderBoardsCard'
 import LatestMatches from './LatestMatches/LatestMatches';
 import UpcomingMatches from './UpcomingMatches/UpcomingMatches';
 import Rental from './Rental/Rental';
+import Contact from './Contact/Contact';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <LatestMatches/>
       <UpcomingMatches/>
       <Rental/>
+      <Contact/> 
       <Footer/>
     </div>
   );
